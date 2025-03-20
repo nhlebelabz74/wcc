@@ -170,20 +170,20 @@ export const execs = [
 
 export const partners = [
   {
-    name: "McKinsey & Company",
-    logos: {
-      light: mck_light,
-      dark: mck_dark
-    },
-    website: "https://www.mckinsey.com/"
-  },
-  {
     name: "BCG",
     logos: {
       light: bcg_light,
       dark: bcg_dark
     },
     website: "https://www.bcg.com/"
+  },
+  {
+    name: "McKinsey & Company",
+    logos: {
+      light: mck_light,
+      dark: mck_dark
+    },
+    website: "https://www.mckinsey.com/"
   },
   {
     name: "Bain & Company",

@@ -11,7 +11,7 @@ const SectionWrapper = (Component, id) => function WrappedComponent() {
             whileInView="show"
             viewport={{ once: true }}
         >
-            <span id={id} className="-mt-25 pb-25 block">&nbsp;</span>
+            <span id={id} className="-mt-28 pb-15 block">&nbsp;</span>
             <Component />
         </motion.section>
     );
