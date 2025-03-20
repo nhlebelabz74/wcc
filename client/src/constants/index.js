@@ -304,17 +304,17 @@ export const socials = [
   {
     name: "LinkedIn",
     icon: Linkedin,
-    link: ""
+    link: "https://www.linkedin.com/company/wits-consulting-club/posts/?feedView=all"
   },
   {
     name: "Instagram",
     icon: Instagram,
-    link: ""
+    link: "https://www.instagram.com/wits_consulting_club/"
   },
   {
     name: "Threads",
     icon: AtSign,
-    link: ""
+    link: "https://www.threads.net/@wits_consulting_club?igshid=NTc4MTIwNjQ2YQ=="
   },
   {
     name: "Email",
@@ -324,7 +324,7 @@ export const socials = [
   {
     name: "Tiktok",
     icon: Hash,
-    link: ""
+    link: "https://www.tiktok.com/@witsconsultingclub?_t=ZM-8uqDf2zTa9H&_r=1"
   }
 ];
 
