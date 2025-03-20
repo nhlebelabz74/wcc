@@ -17,7 +17,7 @@ const AboutUs = () => {
               About Us
             </h1>
             <p className='text-lg leading-relaxed'>
-              <span className='font-bold text-ring text-lg'>The Wits Consulting Club (WCC)</span> is the premier student-led consulting 
+              <span className='font-bold dark:text-ring text-lg'>The Wits Consulting Club (WCC)</span> is the premier student-led consulting 
               organization at the University of the Witwatersrand. <span className='font-bold'>Our mission</span> is to equip 
               students with the skills, knowledge, and network needed to excel in the world 
               of consulting. Through industry collaborations, hands-on case practice, and 
