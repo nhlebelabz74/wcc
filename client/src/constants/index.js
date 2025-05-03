@@ -4,12 +4,17 @@ import Banzi from '../assets/exec/Banzi.webp';
 import Kat from '../assets/exec/Kat.webp';
 import Awande from '../assets/exec/Awande.webp';
 import Kamo from '../assets/exec/Kamo.webp';
-import Khumo from '../assets/exec/Khumo.webp';
 import Lexi from '../assets/exec/Lexi.webp';
 import Tercia from '../assets/exec/Tercia.webp';
 import Sinqobile from '../assets/exec/Sinqobile.webp';
 import Emmanuel from '../assets/exec/Emmanuel.webp';
-// import Tebogo from '../assets/exec/Tebogo.webp';
+// import Thavir from '../assets/exec/Thavir.webp';
+// import Siphesihle from '../assets/exec/Siphesihle.webp';
+// import Omar from '../assets/exec/Omar.webp';
+
+// placeholder images
+import placeholder_male from '../assets/exec/placeholder-male.webp';
+import placeholder_female from '../assets/exec/placeholder-female.webp';
 
 // icons
 import { Globe, Camera, Users, Award, Flag, Sprout, Lightbulb, Shield, Linkedin, Instagram, AtSign, Mail, Hash } from 'lucide-react';
@@ -35,6 +40,8 @@ import anura_light from '../assets/partners/anura-light.svg';
 import anura_dark from '../assets/partners/anura-dark.svg';
 import simon_light from '../assets/partners/simon-light.svg';
 import simon_dark from '../assets/partners/simon-dark.svg';
+// import investec_light from '../assets/partners/investec-light.svg';
+// import investec_dark from '../assets/partners/investec-dark.svg';
 
 export const execs = [
   {
@@ -90,6 +97,17 @@ export const execs = [
     ]
   },
   {
+    name: "Sinqobile Simelane",
+    title: "Co-Head, Events",
+    image: Sinqobile,
+    socials: [
+      {
+        icon: Linkedin,
+        link: "https://www.linkedin.com/in/sinqobile-simelane-38a1ba1b7/"
+      }
+    ]
+  },
+  {
     name: "Emmanuel Azubuike",
     title: "Head, Casing Committee",
     image: Emmanuel,
@@ -97,17 +115,6 @@ export const execs = [
       {
         icon: Linkedin,
         link: "https://www.linkedin.com/in/emmanuel-obinna-azubuike-b39940274/"
-      }
-    ]
-  },
-  {
-    name: "Kamohelo Mofokeng",
-    title: "Secretary",
-    image: Kamo,
-    socials: [
-      {
-        icon: Linkedin,
-        link: "https://www.linkedin.com/in/kamohelo-khanyisile-mofokeng-335b02334/"
       }
     ]
   },
@@ -123,27 +130,16 @@ export const execs = [
     ]
   },
   {
-    name: "Khumo Morife",
-    title: "Head, Social Media",
-    image: Khumo,
+    name: "Kamohelo Mofokeng",
+    title: "Secretary",
+    image: Kamo,
     socials: [
       {
         icon: Linkedin,
-        link: "https://www.linkedin.com/in/khumo-morife/"
+        link: "https://www.linkedin.com/in/kamohelo-khanyisile-mofokeng-335b02334/"
       }
     ]
   },
-  // {
-  //   name: "Tebogo Zikalala",
-  //   title: "Co-Head, Social Media",
-  //   image: Tebogo,
-  //   socials: [
-  //     {
-  //       icon: Linkedin,
-  //       link: "https://www.linkedin.com/in/tebogo-zikalala-b286752b0/"
-  //     }
-  //   ]
-  // },
   {
     name: "Tercia Banda",
     title: "Head, Writting Committee",
@@ -156,19 +152,49 @@ export const execs = [
     ]
   },
   {
-    name: "Sinqobile Simelane",
-    title: "Co-Head, Events",
-    image: Sinqobile,
+    name: "Thavir Raju",
+    title: "Co-Head, Writting Committee",
+    image: placeholder_male,
     socials: [
       {
         icon: Linkedin,
-        link: "https://www.linkedin.com/in/sinqobile-simelane-38a1ba1b7/"
+        link: "https://www.linkedin.com/in/thavir-raju-555432189/"
+      }
+    ]
+  },
+  {
+    name: "Samara Siphesihle Ntuli",
+    title: "Head, Social Media",
+    image: placeholder_female,
+    socials: [
+      {
+        icon: Linkedin,
+        link: "https://www.linkedin.com/in/siphesihlesamarantuli/"
+      }
+    ]
+  },
+  {
+    name: "Omar Kassim",
+    title: "Co-Head, Social Media",
+    image: placeholder_male,
+    socials: [
+      {
+        icon: Linkedin,
+        link: "https://www.linkedin.com/in/omar-kassim-8829191b9/"
       }
     ]
   },
 ];
 
 export const partners = [
+  // {
+  //   name: "McKinsey & Company",
+  //   logos: {
+  //     light: mck_light,
+  //     dark: mck_dark
+  //   },
+  //   website: "https://www.mckinsey.com/"
+  // },
   {
     name: "BCG",
     logos: {
@@ -176,14 +202,6 @@ export const partners = [
       dark: bcg_dark
     },
     website: "https://www.bcg.com/"
-  },
-  {
-    name: "McKinsey & Company",
-    logos: {
-      light: mck_light,
-      dark: mck_dark
-    },
-    website: "https://www.mckinsey.com/"
   },
   {
     name: "Bain & Company",
@@ -202,6 +220,14 @@ export const partners = [
     website: "https://www.cadenagrowthpartners.com/"
   },
   {
+    name: "Simon-Kucher & Partners",
+    logos: {
+      light: simon_light,
+      dark: simon_dark
+    },
+    website: "https://www.simon-kucher.com/en"
+  },
+  {
     name: "Monocle Solutions",
     logos: {
       light: monocle_light,
@@ -209,14 +235,14 @@ export const partners = [
     },
     website: "https://www.monoclesolutions.com/"
   },
-  {
-    name: "Wits Business School",
-    logos: {
-      light: wbs_light,
-      dark: wbs_dark
-    },
-    website: "https://www.wbs.ac.za/"
-  },
+  // {
+  //   name: "Wits Business School",
+  //   logos: {
+  //     light: wbs_light,
+  //     dark: wbs_dark
+  //   },
+  //   website: "https://www.wbs.ac.za/"
+  // },
   {
     name: "Oliver Wyman",
     logos: {
@@ -233,22 +259,14 @@ export const partners = [
     },
     website: "https://www.kearney.com/"
   },
-  {
-    name: "Anura Partners",
-    logos: {
-      light: anura_light,
-      dark: anura_dark
-    },
-    website: "https://www.anura.partners/"
-  },
-  {
-    name: "Simon-Kucher & Partners",
-    logos: {
-      light: simon_light,
-      dark: simon_dark
-    },
-    website: "https://www.simon-kucher.com/en"
-  }
+  // {
+  //   name: "Anura Partners",
+  //   logos: {
+  //     light: anura_light,
+  //     dark: anura_dark
+  //   },
+  //   website: "https://www.anura.partners/"
+  // }
 ];
 
 export const styles = {
